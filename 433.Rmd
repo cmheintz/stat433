@@ -1,8 +1,8 @@
 ---
-title: '433'
+title: '433 Homework 1'
 author: "Carleigh Heintz"
 date: "2/1/2021"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -33,6 +33,6 @@ for (i in 1:length(data)) {
 }
 cols <- c("name", "position", "department","degree information")
 colnames(faculty) <- cols
-str(faculty)
+# str(faculty)
 ```
 
